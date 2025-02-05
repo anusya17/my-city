@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    border-bottom: 10px;
+    background-color: PapayaWhip;
+   
+    
+
+}
+
+#content{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    padding: 100px 0 100px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#name{
+    background-color: Yellow;
+    padding: 10px  ;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+#text{
+    
+background-color: LemonChiffon;
+padding: 10px  ;
+border-radius: 20px;
+align-items: center;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    text-align: center;
+    border: 2px solid black ;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.avathar{
+    width: 150px;
+    border-radius: 50px;
+}
+.CARD{
+    width: 400px;
+    margin-left:auto ;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+
+.img{
+    width: 150px;
+}
